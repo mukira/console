@@ -1,0 +1,99 @@
+.two-fa-enforcement-alert svg.fa-triangle-exclamation {
+    font-size: 2.25rem;
+    padding-right: 0.5rem;
+    color: rgb(202 138 4);
+}
+
+.btn.btn-warning-alert.btn-warning,
+.two-fa-enforcement-alert button#two-fa-setup-button.btn.btn-warning body[data-theme='dark'] .btn.btn-warning-alert.btn-warning,
+body[data-theme='dark'] .two-fa-enforcement-alert button#two-fa-setup-button.btn.btn-warning {
+    background-color: rgb(202 138 4);
+    border-color: rgb(161 98 7);
+    color: rgb(254 249 195);
+    cursor: default;
+}
+
+.app-version-in-nav {
+    display: flex;
+    align-items: center;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.2rem;
+}
+
+.fleetbase-pagination-meta-info-wrapper.within-layout-section-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    flex: 1;
+}
+
+.without-padding {
+    padding: 0 !important;
+}
+
+.without-padding-y {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.without-padding-x {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+body.console-admin-organizations-index-index .next-table-wrapper>table {
+    table-layout: auto;
+}
+
+.btn-primary {
+    background-color: #018749 !important;
+    border-color: #01543e !important;
+    /* Darker shade of the background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle box shadow for depth */
+}
+
+#ops-map-view-button.active {
+    background-color: #018749 !important;
+}
+
+#ops-table-view-button.active {
+    background-color: #018749 !important;
+}
+
+#ops-kanban-view-button.active {
+    background-color: #018749 !important;
+}
+
+.rounded-full {
+    background-color: #018749 !important;
+}
+
+.fleetbase-loader {
+    border: 3px solid rgba(1, 84, 62, 1) !important;
+    border-bottom-color: rgba(28, 172, 120, 1) !important;
+}
+
+.overloader > .loader-container {
+    background: rgba(1, 59, 43, 0.775) !important;
+    border: 1px solid #1c2d1e !important;
+    backdrop-filter: blur(3.5px);
+    border-radius: .5rem;
+    padding: .25rem .85rem;
+}
+
+.text-sky-500 {
+    color: #018749 !important;
+}
+
+.active {
+    background-color: #018749 !important;
+}
+
+a:hover {
+    background-color: #018749 !important;
+}

@@ -1,7 +1,6 @@
 {
-    "name": "@lipagas/console",
-    "version": "0.4.24",
-    "private": true,
+    "name": "@fleetbase/console",
+    "version": "0.4.25",
     "description": "Modular logistics and supply chain operating system (LSOS)",
     "repository": "https://github.com/mukira/fleetbase",
     "license": "MIT",
@@ -38,7 +37,7 @@
         "@lipagas/fleetops-engine": "^0.4.37",
         "@lipagas/iam-engine": "^0.0.12",
         "@lipagas/leaflet-routing-machine": "^3.2.16",
-        "@lipagas/storefront-engine": "^0.4.1",
+        "@lipagas/storefront-engine": "^0.4.2",
         "ember-changeset": "^4.1.2",
         "ember-changeset-validations": "^4.1.1",
         "ember-composable-helpers": "^5.0.0",
@@ -142,9 +141,9 @@
     },
     "pnpm": {
         "overrides": {
-            "@lipagas/ember-core": "^0.2.11",
-            "@lipagas/ember-ui": "^0.2.19",
-            "@lipagas/fleetops-data": "^0.1.16"
+            "@lipagas/ember-core": "*",
+            "@lipagas/ember-ui": "*",
+            "@lipagas/fleetops-data": "*"
         }
     },
     "prettier": {

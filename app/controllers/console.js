@@ -209,8 +209,8 @@ export default class ConsoleController extends Controller {
      * @void
      */
     @action createOrJoinOrg() {
-        const currency = this.currentUser.currency;
-        const country = this.currentUser.country;
+        const currency = this.currentUser.currency || 'KES' ;
+        const country = this.currentUser.country || 'Kenya' ;  
 
         this.modalsManager.show('modals/create-or-join-org', {
             title: this.intl.t('console.create-or-join-organization.modal-title'),
